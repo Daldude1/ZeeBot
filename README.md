@@ -1,23 +1,35 @@
-Hola que tal
-Este es un bot hecho en python, el cuál tiene por ahora:
-sistema de tickets.
-El mismo está hecho en pycord y es bastante facil de usar.
-Este bot esta hecho para funcionar en otros servidores, utilizando una base de datos para mantener todo bien y limpio.
+ZeeBot | Maded by Daldude1 - Hecho por Daldude1.
+Version 1.2. 
 
-Para instalar pycord utilice:
-pip uninstall discord.py 
-pip install py-cord
+Este es el mejor sistema de tickets de código libre.
 
-Antes de empezar debe configurar el sistema de tickets, cuyo comando es:
-.configT #ticket_channel @support_role
-Dónde #ticket_channel es el canal en el que aparecera el mensaje de tickets mencionado, y support_role es el rol de soporte, o mejor dicho el rol a taguear.
-Una vez configurada utilice .ticket en el canal de tickets configurado y se enviará un mensaje
+¿Qué trae de nuevo?
+- He añadido reacciones para cerrar el ticket 
+- He añadido nuevos comandos los cuales son:
+    .close
+    .rename 
 
-¡Sí usa este proyecto le agradecería dejarme como autor!
-Usted, tiene todo el derecho y puede hacer lo que quiera con el mismo. 
+¿Qué puedes hacer con este bot?
+Con esté bot puedes atender de forma mas agradable a tus usuarios. 
 
-Sí tienes problemas / erores con el mismo no dude en contactarme: Daldude1#9156
-¡Impulse a este proyecto realizando una donacion, contacteme para mas info!
+Preguntas Frecuentes:
+    - ¿Cómo lo instalas? 
+        Simple, descargas esté codigo vas a la carpeta de config / values.json en el valor de "token" cambias lo que tiene dentro osea "token" por el token de tu bot, quedaría asi:
+        "token":"..yourdiscordbottoken.."
+        El prefijo por default es "."
+    - ¿Esté bot tiene una version oficial?
+        Así es, es HexecBot, el cuál aun esta en mantenimiento pero tendrá muchas cosas y un sistema de configuración mas que agradable!
+    - ¿Obtienes muchos errores?
+        Esté bot esta hecho en python.. Claramente deberás instalarlo para usarlo.
+        OJO: Version requerida: python 3.
+        Una vez instalado python ejecutarás la consola y pondras:
+        pip install pysqlite3 
+        pip uninstall discord.py
+        pip install py-cord
 
-¿Deseas tu bot personalizado con muchas mas funciones?
-Puede contactarme en: Daldude1#9156
+¿Te darme sugerencias? 
+¡Contactame en discord! Daldude1#9156
+
+¡No te olvides de al menos dejar tu estrella, se aprecía mucho y me da un gran apoyo para continuar este proyecto!
+Puedes hacer lo qué desees con el. 
+- Por favor no usar el nombre del bot ZeeBot para bots publicos | Haz el tuyo propio.
